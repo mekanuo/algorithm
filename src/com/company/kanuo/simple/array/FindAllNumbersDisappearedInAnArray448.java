@@ -1,4 +1,4 @@
-package com.company.kanuo.simple;
+package com.company.kanuo.simple.array;
 
 import java.util.ArrayList;
 import java.util.List;

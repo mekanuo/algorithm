@@ -1,4 +1,4 @@
-package com.company.kanuo.simple;
+package com.company.kanuo.simple.array;
 
 /**
  * https://leetcode-cn.com/problems/move-zeroes/
@@ -14,7 +14,7 @@ package com.company.kanuo.simple;
  * 必须在原数组上操作，不能拷贝额外的数组。
  * 尽量减少操作次数。
  */
-public class Move_Zeroes_283 {
+public class MoveZeroes_283 {
 
     public static void main(String[] args) {
         int[] array = {0,1,0,3,12};

@@ -1,4 +1,4 @@
-package com.company.kanuo.simple;
+package com.company.kanuo.simple.array;
 
 import java.util.HashMap;
 import java.util.Objects;

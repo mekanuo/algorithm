@@ -1,4 +1,4 @@
-package com.company.kanuo.simple;
+package com.company.kanuo.simple.array;
 
 import com.sun.deploy.util.StringUtils;
 
@@ -43,7 +43,7 @@ import java.util.stream.Collectors;
  *
  * 进阶：你可以设计实现一个时间复杂度为  O(m + n) 的算法解决此问题吗？
  */
-public class Merge_Sorted_Array_88 {
+public class MergeSortedArray_88 {
 
     public static void main(String[] args) {
 //        int[] nums1 = new int[20000];
