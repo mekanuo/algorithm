@@ -34,9 +34,6 @@ public class MergeTwoSortedLists_21 {
 
     /**
      * 递归方式
-     * @param l1
-     * @param l2
-     * @return
      */
     private static ListNode sort2(ListNode l1,ListNode l2){
         if (l1 == null) return l2;
@@ -52,9 +49,6 @@ public class MergeTwoSortedLists_21 {
 
     /**
      * 轮训方式
-     * @param l1
-     * @param l2
-     * @return
      */
     private static ListNode sort1(ListNode l1,ListNode l2){
         if (l1==null) return l2;
@@ -62,7 +56,6 @@ public class MergeTwoSortedLists_21 {
 
         ListNode resultNode = new ListNode(0);
         ListNode p = resultNode;
-
         while (l1!=null && l2!=null) {
             if (l1.node < l2.node) {
                 p.nextNode = l1;
@@ -73,10 +66,8 @@ public class MergeTwoSortedLists_21 {
             }
             p = p.nextNode;
         }
-
         if (l1!=null) p.nextNode = l1;
         if (l2!=null) p.nextNode = l2;
-
         return resultNode.nextNode;
     }
 
