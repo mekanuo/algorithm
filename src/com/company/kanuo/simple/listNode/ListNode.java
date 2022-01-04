@@ -10,4 +10,12 @@ public class ListNode {
     ListNode(int x) {
         node = x;
     }
+
+    @Override
+    public String toString() {
+        return "ListNode{" +
+                "node=" + node +
+                ", nextNode=" + nextNode +
+                '}';
+    }
 }
